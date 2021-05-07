@@ -78,19 +78,28 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <RadioButton
-            android:id="@+id/radiobtnCash"
+        <RadioGroup
+            android:id="@+id/paymentMethod"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/radiobtnCash" />
+            android:orientation="horizontal">
 
-        <RadioButton
-            android:id="@+id/radiobtnPaynow"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/radiobtnPayNow" />
+            <RadioButton
+                android:id="@+id/radiobtnCash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/radiobtnCash" />
+
+            <RadioButton
+                android:id="@+id/radiobtnPaynow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/radiobtnPayNow" />
+
+        </RadioGroup>
 
     </LinearLayout>
 
@@ -128,7 +137,7 @@
     <TextView
         android:id="@+id/tvSplitBill"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:text="@string/tvSplitBill"
         android:layout_margin="10px"/>
 
