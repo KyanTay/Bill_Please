@@ -8,7 +8,8 @@
         android:id="@+id/tvAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tvAmount" />
+        android:text="@string/tvAmount"
+        android:layout_margin="10px"/>
 
     <EditText
         android:id="@+id/etAmountProvided"
@@ -22,7 +23,8 @@
         android:id="@+id/tvPaxNum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tvNumPax" />
+        android:text="@string/tvNumPax"
+        android:layout_margin="10px"/>
 
     <EditText
         android:id="@+id/etPaxNumGiven"
@@ -42,21 +44,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btnNoServiceCharge" />
+            android:text="@string/btnNoServiceCharge"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="15px"/>
 
         <Button
             android:id="@+id/btnGST"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btnGST" />
+            android:text="@string/btnGST"
+            android:layout_marginLeft="15px"
+            android:layout_marginRight="50px"/>
     </LinearLayout>
 
     <TextView
         android:id="@+id/tvDiscount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tvDiscount" />
+        android:text="@string/tvDiscount"
+        android:layout_margin="10px"/>
 
     <EditText
         android:id="@+id/etDiscountGiven"
@@ -67,8 +74,8 @@
         android:hint="@string/etEnterDiscount" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <RadioButton
@@ -97,26 +104,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btnSplit" />
+            android:text="@string/btnSplit"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="15px"/>
 
         <Button
             android:id="@+id/btnReset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btnReset" />
+            android:text="@string/btnReset"
+            android:layout_marginLeft="15px"
+            android:layout_marginRight="50px"/>
     </LinearLayout>
 
     <TextView
         android:id="@+id/tvTotalBill"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/tvTotalBill" />
+        android:text="@string/tvTotalBill"
+        android:layout_margin="10px"/>
 
     <TextView
         android:id="@+id/tvSplitBill"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/tvSplitBill" />
+        android:text="@string/tvSplitBill"
+        android:layout_margin="10px"/>
 
 </LinearLayout>
