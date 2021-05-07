@@ -8,7 +8,7 @@
         android:id="@+id/tvAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/tvAmount" />
 
     <EditText
         android:id="@+id/etAmountProvided"
@@ -16,13 +16,13 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="@string/etEnterAmount"/>
 
     <TextView
         android:id="@+id/tvPaxNum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/tvNumPax" />
 
     <EditText
         android:id="@+id/etPaxNumGiven"
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="@string/etEnterPax" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,21 +42,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="@string/btnNoServiceCharge" />
 
         <Button
             android:id="@+id/btnGST"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="@string/btnGST" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/tvDiscount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/tvDiscount" />
 
     <EditText
         android:id="@+id/etDiscountGiven"
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="@string/etEnterDiscount" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -76,14 +76,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="RadioButton" />
+            android:text="@string/radiobtnCash" />
 
         <RadioButton
             android:id="@+id/radiobtnPaynow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="RadioButton" />
+            android:text="@string/radiobtnPayNow" />
 
     </LinearLayout>
 
@@ -97,26 +97,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="@string/btnSplit" />
 
         <Button
             android:id="@+id/btnReset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="@string/btnReset" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/tvTotalBill"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/tvTotalBill" />
 
     <TextView
         android:id="@+id/tvSplitBill"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/tvSplitBill" />
 
 </LinearLayout>

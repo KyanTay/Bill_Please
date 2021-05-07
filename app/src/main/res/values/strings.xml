@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Bill_Please</string>
+    <string name="tvAmount">Amount</string>
+    <string name="etEnterAmount">Enter amount</string>
+    <string name="tvNumPax">Num of Pax</string>
+    <string name="etEnterPax">Enter amount of people</string>
+    <string name="btnNoServiceCharge">NO SVC</string>
+    <string name="btnGST">GST</string>
+    <string name="tvDiscount">Discount</string>
+    <string name="etEnterDiscount">Enter Discount</string>
+    <string name="radiobtnCash">Cash</string>
+    <string name="radiobtnPayNow">PayNow</string>
+    <string name="btnSplit">SPLIT</string>
+    <string name="btnReset">RESET</string>
+    <string name="tvTotalBill">Total Bill:</string>
+    <string name="tvSplitBill">Each Pays:</string>
 </resources>
